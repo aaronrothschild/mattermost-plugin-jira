@@ -15,7 +15,7 @@ Sometimes the plugin may crash unexpectedly, you may notice:
 
 If you encounter these types of issues - you can set `LogSettings.FileLevel` to `DEBUG` in your config.json settings. This will enable debug logging and give more verbose error events in the system log. Then try re-enabling the plugin in the system-console. These log results may be requested by others in the forum or by our support team. **Note** If you have a site with high volumes of activity, this setting can cause Log files to expand substantially and may adversely impact the server performance. Keep an eye on your server logs, or only enable in development environments.
 
-### Jira/Mattermost user connections
+## Jira/Mattermost user connections
 
 Connecting an account between Mattermost and Jira is a key part of the installation process and requires the end-user to authenticate with Jira and allow access to their Jira account. All `create`, `view`, `assign` and `transition` operations are done using the logged in user's Jira access token.
 

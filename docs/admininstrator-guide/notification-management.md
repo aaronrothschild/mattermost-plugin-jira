@@ -8,7 +8,7 @@ description: Centrally view all notification subscriptions in your system
 
 Jira notifications are messages sent to a Mattermost Channel when a particular event occurs in Jira.  They can be subscribed to from a channel via `/jira subscribe` \(managed within Mattermost\) AND/OR a webhook can be manually setup from Jira to send a message to a particular channel in Mattermost \(managed via Jira\).
 
-![This is a channel notification of a new bug that was created in Jira](../.gitbook/assets/image%20%281%29.png)
+![This is a channel notification of a new bug that was created in Jira](../.gitbook/assets/image%20%287%29.png)
 
 When any webhook event is received from Jira - the plugin reviews all the notification subscriptions and if it matches a rule - it will post a notification to the channel.  If there are no subscription matches, the webhook event is discarded. 
 
@@ -34,7 +34,7 @@ First, set which **Mattermost** user roles are allowed to access the subscriptio
 
 Then, you can specify which Jira groups they ALSO need to be a member of, in order to access the subscription editor:
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 ## How can I see all the notification subscriptions that are setup in Mattermost? 
 

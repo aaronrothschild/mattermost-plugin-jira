@@ -10,7 +10,7 @@ description: Get the most out the Jira/Mattermost integration
 
 Create Jira issues from a Mattermost message by clicking the **More Actions** \(...\) option of any message in the channel \(available when you hover over a message\), then selecting **Create Jira Issue**.
 
-![You can create a Jira issue from any Mattermost message](../.gitbook/assets/image%20%285%29.png)
+![You can create a Jira issue from any Mattermost message](../.gitbook/assets/image.png)
 
 Then, on the resulting issue creation dialog, select the project, issue type and enter other fields to create the issue.
 
@@ -34,7 +34,7 @@ The supported Jira fields are:
 
 Keep all information in one place by attaching parts of Mattermost conversations in Jira issues as comments. To attach a message, click the **More Actions** \(...\) option of any message in the channel \(available when you hover over a message\), then select **Attach to Jira Issue**.
 
-![You can attach a message to an existing Jira ticket](../.gitbook/assets/image%20%286%29.png)
+![You can attach a message to an existing Jira ticket](../.gitbook/assets/image%20%281%29.png)
 
 Then, on the resulting dialog, select the issue you want to attach it to. You may search for issues containing specific text or just the issue number.
 

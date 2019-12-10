@@ -12,7 +12,7 @@ To get started with the Jira/Mattermost connector is easy.  You'll first need to
 
 You may notice that when you type `/` a menu pops up - these are called **Slash Commands** and bring the functionality of Jira \(and other integrations\) to your fingertips.  
 
-![The /jira command options](../.gitbook/assets/image%20%284%29.png)
+![The /jira command options](../.gitbook/assets/image%20%285%29.png)
 
 
 

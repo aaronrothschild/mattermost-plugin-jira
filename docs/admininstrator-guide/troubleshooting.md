@@ -7,7 +7,18 @@ description: >-
 
 # Troubleshooting
 
+## Error Log Checking
+
+There are two logs to check for errors:
+
+* Check `mattermost.log` for server ERRORs if the plugin is not starting up properly
+* Check `atlassian-jira.log` to troubleshoot plugin specific issues
+
+## Connectivity Issues
+
 **Note**: If you experience problems with Jira-related user interactions in Mattermost such as creating issues, disable these features by setting **Allow users to connect their Mattermost accounts to Jira** to false in **System Console &gt; Plugins &gt; Jira**. This setting does not affect Jira webhook notifications. After changing this setting to false, disable, then re-enable this plugin in **System Console &gt; Plugins &gt; Plugin Management** to reset the plugin state for all users.
+
+## Plugin Crashing
 
 Sometimes the plugin may crash unexpectedly, you may notice:
 
@@ -15,7 +26,7 @@ Sometimes the plugin may crash unexpectedly, you may notice:
 
 If you encounter these types of issues - you can set `LogSettings.FileLevel` to `DEBUG` in your config.json settings. This will enable debug logging and give more verbose error events in the system log. Then try re-enabling the plugin in the system-console. These log results may be requested by others in the forum or by our support team. **Note** If you have a site with high volumes of activity, this setting can cause Log files to expand substantially and may adversely impact the server performance. Keep an eye on your server logs, or only enable in development environments.
 
-### Jira/Mattermost user connections
+## Jira/Mattermost user connections
 
 Connecting an account between Mattermost and Jira is a key part of the installation process and requires the end-user to authenticate with Jira and allow access to their Jira account. All `create`, `view`, `assign` and `transition` operations are done using the logged in user's Jira access token.
 
